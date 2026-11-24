@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manchester United Clicker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <div class="app-wrapper">
+    <!-- Top header banner -->
+    <header class="top-banner">
+      <span class="banner-icon" aria-hidden="true">⚽</span>
+      <h1>MANCHESTER UNITED CLICKER</h1>
+      <span class="banner-icon" aria-hidden="true">⚽</span>
+    </header>
+
+    <!-- Middle section: game area on the left, stats and upgrades on the right -->
+    <div class="main-grid">
+      <main id="game" class="panel">
+        <button id="click-target" type="button" aria-label="Click the football to earn points">
+          ⚽
+        </button>
+
+        <p id="message-area" aria-live="polite">Tap the ball to earn points!</p>
+      </main>
